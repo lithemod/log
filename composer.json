@@ -1,0 +1,29 @@
+{
+    "name": "lithemod/log",
+    "description": "A simple logging library for PHP projects.",
+    "type": "library",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lithe\\Support\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "William Humbwavali"
+        }
+    ],
+    "scripts": {
+        "test": "phpunit"
+    }
+}
