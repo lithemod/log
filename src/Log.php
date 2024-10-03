@@ -43,7 +43,7 @@ class Log
     {
         if (!self::$logDir) {
             // Set a default log directory if none has been provided
-            self::$logDir = dirname(__DIR__, 2) . '/storage/logs'; // Default to a 'logs' directory two levels up
+            self::$logDir = dirname(__DIR__, 4) . '/storage/logs'; // Default to a 'logs' directory two levels up
         }
 
         if (!is_dir(self::$logDir)) {
